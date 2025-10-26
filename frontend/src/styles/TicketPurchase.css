@@ -1,0 +1,66 @@
+.purchase-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.purchase-description {
+  margin: 0;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.number-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+.input-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.35rem;
+}
+
+.ticket-input {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(148, 163, 184, 0.6);
+  font-size: 1.1rem;
+  text-align: center;
+  transition: border-color 0.2s ease;
+}
+
+.ticket-input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.price-note {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.purchase-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.success-banner {
+  background: rgba(16, 185, 129, 0.12);
+  color: #047857;
+  border-radius: 0.85rem;
+  padding: 0.9rem 1rem;
+  font-weight: 500;
+}
+
+.warning-banner {
+  background: rgba(245, 158, 11, 0.12);
+  color: #b45309;
+  border-radius: 0.85rem;
+  padding: 0.85rem 1rem;
+}
